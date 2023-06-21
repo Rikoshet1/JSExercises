@@ -1,0 +1,35 @@
+1.Why are global variables bad?
+  becuase if many modules share one variable when we change it one module we need to consider it in the another modules
+
+2.What are the 3 ways a global variable is created?
+  1. to create the variable in the global scope
+  2. to assign it with the keyword "var" instead of "let"
+  3. to it assign to a property on the object "globalThis"
+
+3.What is the global object in the browser?
+ window
+
+4.What is an IIFE?
+  a function that runs the moment it is invoked or called in the JavaScript event loop
+
+5.What is scope?
+a code segment enclosed in parentheses that the variables are defined in it is known only in this scope. 
+there are 3 types of scope: block scope, function scope, global scope 
+ 
+6.What are the differences between var and let?
+ let defines local variables, and var - global variables
+
+7.What is the result of these expressions 1 == true, true + 1
+ true, 2 becuase boolean var is really a bit that contains 0 or 1
+
+8.What is a function decleration, what is a function expression and what is the difference?
+  a function declaration tells the JavaScript engine about a function's name, return type, and parameters
+  a function expression is a function that can be store in a variable 
+  the difference is that a function expression can be anonymous.
+
+9.How to remove a property from an object?
+  delete <object>.<property>
+
+10.What is a label statements and give an example to use it.
+   a statement that is prefixed with an identifier and you can jump to the label with "break" or "continue"
+   one of the uses is in nested loop and you want to break/continue just one of them.
