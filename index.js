@@ -49,13 +49,12 @@ companies.sort((a,b)=>{
 //Ex 5
 ages.sort((a,b)=>b-a)
 
-
 //Ex 6
 ages.reduce((total, num)=>total+num, 0)
 
 //Ex 7
-let {name,category}=companies[0]
-
+let obj = {name,category}=companies[0]
+console.log(obj)
 
 //Ex 8
 function sum (...numbers){
