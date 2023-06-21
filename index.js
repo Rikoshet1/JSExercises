@@ -53,7 +53,8 @@ ages.sort((a,b)=>b-a)
 ages.reduce((total, num)=>total+num, 0)
 
 //Ex 7
-let obj = {name,category}=companies[0]
+let  {name,category}=companies[0]
+let obj={name,category}
 console.log(obj)
 
 //Ex 8
